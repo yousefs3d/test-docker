@@ -1,0 +1,6 @@
+sudo: required
+services:
+    - docker
+script:
+    - docker build -t yousefs3d/test-docker .
+    - docker images yousefs3d/test-docker 
