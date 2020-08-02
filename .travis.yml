@@ -10,6 +10,6 @@ before_deploy:
 
 deploy:
     provider: script
-    script: docker push yousefs3d/test-docke
+    script: docker push yousefs3d/test-docker
     on:
         branch: master
