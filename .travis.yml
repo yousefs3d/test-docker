@@ -6,7 +6,7 @@ script:
     - docker images yousefs3d/test-docker 
 
 before_deploy:
-    - docker login -u yousefs3d -p Yousef233
+    - docker login -u yousefs3d -p Yousef232
 
 deploy:
     provider: script
