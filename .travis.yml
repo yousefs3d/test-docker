@@ -8,8 +8,8 @@ script:
 before_deploy:
     - docker login -u yousefs3d -p Yousef232
 
-    deploy:
-        provider: script
-        script: docker push yousefs3d/test-docker
-        on:
-            branch: master
+deploy:
+    provider: script
+    script: docker push yousefs3d/test-docker
+    on:
+        branch: master
